@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:text="Your Upcoming Bookings:"
+        android:textColor="@color/colorBlack"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+    <!--        <ListView-->
+    <!--            android:id="@+id/blist"-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"></ListView>-->
+
+    <LinearLayout
+        android:id="@+id/container1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <!--    <LinearLayout-->
+        <!--        android:layout_width="match_parent"-->
+        <!--        android:layout_height="wrap_content"-->
+        <!--        android:orientation="horizontal"-->
+        <!--        android:padding="10dp">-->
+
+        <!--        <ImageView-->
+        <!--            android:layout_width="100dp"-->
+        <!--            android:layout_height="101dp"-->
+        <!--            android:src="@mipmap/rafting"-->
+        <!--            android:scaleType="fitXY"/>-->
+
+        <!--        <LinearLayout-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:background="@color/colorOrange"-->
+        <!--            android:orientation="vertical">-->
+
+        <!--            <TextView-->
+        <!--                android:layout_width="match_parent"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:gravity="left"-->
+        <!--                android:padding="10dp"-->
+        <!--                android:textColor="@color/colorWhite"-->
+        <!--                android:text="Sindhuli Rafting"-->
+        <!--                android:textSize="22sp"-->
+        <!--                android:textStyle="bold" />-->
+
+        <!--            <TextView-->
+        <!--                android:layout_width="match_parent"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:gravity="left"-->
+        <!--                android:textColor="@color/colorWhite"-->
+        <!--                android:padding="10dp"-->
+        <!--                android:text="15th Feb, 09:00"-->
+        <!--                android:textSize="22sp"-->
+        <!--                android:textStyle="bold" />-->
+        <!--        </LinearLayout>-->
+
+        <!--    </LinearLayout>-->
+        <!--    <LinearLayout-->
+        <!--        android:layout_width="match_parent"-->
+        <!--        android:layout_height="wrap_content"-->
+        <!--        android:orientation="horizontal"-->
+        <!--        android:padding="10dp">-->
+
+        <!--        <ImageView-->
+        <!--            android:layout_width="100dp"-->
+        <!--            android:layout_height="101dp"-->
+        <!--            android:src="@mipmap/safari"-->
+        <!--            android:scaleType="fitXY"/>-->
+
+        <!--        <LinearLayout-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:background="@color/colorOrange"-->
+        <!--            android:orientation="vertical">-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/username"-->
+        <!--                android:layout_width="match_parent"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:gravity="left"-->
+        <!--                android:padding="10dp"-->
+        <!--                android:textColor="@color/colorWhite"-->
+        <!--                android:text="Chitwan Safari"-->
+        <!--                android:textSize="22sp"-->
+        <!--                android:textStyle="bold" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/address"-->
+        <!--                android:layout_width="match_parent"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:gravity="left"-->
+        <!--                android:textColor="@color/colorWhite"-->
+        <!--                android:padding="10dp"-->
+        <!--                android:text="18th Feb, 18:00"-->
+        <!--                android:textSize="22sp"-->
+        <!--                android:textStyle="bold" />-->
+        <!--        </LinearLayout>-->
+
+        <!--    </LinearLayout>-->
+        <!--    <LinearLayout-->
+        <!--        android:layout_width="match_parent"-->
+        <!--        android:layout_height="wrap_content"-->
+        <!--        android:orientation="horizontal"-->
+        <!--        android:padding="10dp">-->
+
+        <!--        <ImageView-->
+        <!--            android:layout_width="100dp"-->
+        <!--            android:layout_height="101dp"-->
+        <!--            android:src="@mipmap/zipline"-->
+        <!--            android:scaleType="fitXY"/>-->
+
+        <!--        <LinearLayout-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:background="@color/colorOrange"-->
+        <!--            android:orientation="vertical">-->
+
+        <!--            <TextView-->
+        <!--                android:layout_width="match_parent"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:gravity="left"-->
+        <!--                android:padding="10dp"-->
+        <!--                android:textColor="@color/colorWhite"-->
+        <!--                android:text="Dhulikhel Zipline"-->
+        <!--                android:textSize="22sp"-->
+        <!--                android:textStyle="bold" />-->
+
+        <!--            <TextView-->
+        <!--                android:layout_width="match_parent"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:gravity="left"-->
+        <!--                android:textColor="@color/colorWhite"-->
+        <!--                android:padding="10dp"-->
+        <!--                android:text="1st March, 15:00"-->
+        <!--                android:textSize="22sp"-->
+        <!--                android:textStyle="bold" />-->
+        <!--        </LinearLayout>-->
+        <!--    </LinearLayout>-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_stars_black_24dp"
+                android:padding="15dp"
+                android:text="  Rewards"
+                android:textColor="@color/colorBlack"
+                android:textSize="20dp"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_rate_review_black_24dp"
+                android:padding="15dp"
+                android:text="  Review Bookings"
+                android:textColor="@color/colorBlack"
+                android:textSize="20dp"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_history_black_24dp"
+                android:padding="15dp"
+                android:text="  Past Bookings"
+                android:textColor="@color/colorBlack"
+                android:textSize="20dp"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_date_range_black_24dp"
+                android:padding="15dp"
+                android:text="  Reschedule Booking"
+                android:textColor="@color/colorBlack"
+                android:textSize="20dp"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_cancel_black_24dp"
+                android:padding="15dp"
+                android:text="  Cancel Booking"
+                android:textColor="@color/colorBlack"
+                android:textSize="20dp"></TextView>
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>
