@@ -1,4 +1,4 @@
-# TheJunkie
+# The Adventure Junkie
 "An e-commerce adventure Planning app"
 "This app is made for educational purpose only and for my private learning."
 
